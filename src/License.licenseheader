@@ -1,0 +1,6 @@
+extensions: .cs
+#region copyright
+// <copyright file="%FileName%" company="Calabaraburus">
+//   Copyright (c) %CreationYear% Natalchishin Taras
+// </copyright>
+#endregion

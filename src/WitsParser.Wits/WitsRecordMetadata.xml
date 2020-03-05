@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Records>
+  <Record Id="1" LogicalRecordType="151" AM="AUTOMATIC" Trigger="[TIME] Transmit at a specified time interval (secs)" DataSource="Data acquired in real-time and computed over the trigger interval; record transmitted and computation reset when triggering interval occurs">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Bit (meas)" LMnem="DEPTBITM" Mnem="DBTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Bit (vert)" LMnem="DEPTBITV" Mnem="DBTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Block Position" LMnem="BLKPOS" Mnem="BPOS" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="13" Descript="Rate of Penetration (avg)" LMnem="ROPA" Mnem="ROPA" Type="F" Len="4" MUnit="M/HR" FUnit="F/HR" />
+      <Item Id="14" Descript="Hookload (avg)" LMnem="HKLA" Mnem="HKLA" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="15" Descript="Hookload (max)" LMnem="HKLX" Mnem="HKLX" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="16" Descript="Weight-on-Bit (surf,avg)" LMnem="WOBA" Mnem="WOBA" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="17" Descript="Weight-on-Bit (surf,max)" LMnem="WOBX" Mnem="WOBX" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="18" Descript="Rotary Torque (surf,avg)" LMnem="TORQA" Mnem="TQA" Type="F" Len="4" MUnit="KNM" FUnit="KFLB" />
+      <Item Id="19" Descript="Rotary Torque (surf,max)" LMnem="TORQX" Mnem="TQX" Type="F" Len="4" MUnit="KNM" FUnit="KFLB" />
+      <Item Id="20" Descript="Rotary Speed (surf,avg)" LMnem="RPMA" Mnem="RPMA" Type="S" Len="2" MUnit="RPM" FUnit="RPM" />
+      <Item Id="21" Descript="Standpipe Pressure (avg)" LMnem="SPPA" Mnem="SPPA" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="22" Descript="Casing (Choke) Pressure" LMnem="CHKP" Mnem="CHKP" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="23" Descript="Pump Stroke Rate #1" LMnem="SPM1" Mnem="SPM1" Type="S" Len="2" MUnit="SPM" FUnit="SPM" />
+      <Item Id="24" Descript="Pump Stroke Rate #2" LMnem="SPM2" Mnem="SPM2" Type="S" Len="2" MUnit="SPM" FUnit="SPM" />
+      <Item Id="25" Descript="Pump Stroke Rate #3" LMnem="SPM3" Mnem="SPM3" Type="S" Len="2" MUnit="SPM" FUnit="SPM" />
+      <Item Id="26" Descript="Tank Volume (active)" LMnem="TVOLACT" Mnem="TVA" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="27" Descript="Tank Volume Change (act)" LMnem="TVOLCACT" Mnem="TVCA" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="28" Descript="Mud Flow Out %" LMnem="MFOP" Mnem="MFOP" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="29" Descript="Mud Flow Out (avg)" LMnem="MFOA" Mnem="MFOA" Type="F" Len="4" MUnit="L/M" FUnit="GPM" />
+      <Item Id="30" Descript="Mud Flow In (avg)" LMnem="MFIA" Mnem="MFIA" Type="F" Len="4" MUnit="L/M" FUnit="GPM" />
+      <Item Id="31" Descript="Mud Density Out (avg)" LMnem="MDOA" Mnem="MDOA" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="32" Descript="Mud Density In (avg)" LMnem="MDIA" Mnem="MDIA" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="33" Descript="Mud Temperature Out (avg)" LMnem="MTOA" Mnem="MTOA" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="34" Descript="Mud Temperature In (avg)" LMnem="MTIA" Mnem="MTIA" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="35" Descript="Mud Conductivity Out (avg)" LMnem="MCOA" Mnem="MCOA" Type="F" Len="4" MUnit="MMHO" FUnit="MMHO" />
+      <Item Id="36" Descript="Mud Conductivity In (avg)" LMnem="MCIA" Mnem="MCIA" Type="F" Len="4" MUnit="MMHO" FUnit="MMHO" />
+      <Item Id="37" Descript="Pump Stroke Count (cum)" LMnem="STKC" Mnem="STKC" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="38" Descript="Lag Strokes" LMnem="LAGSTKS" Mnem="LSTK" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="39" Descript="Depth Returns (meas)" LMnem="DEPTRETM" Mnem="DRTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="40" Descript="Gas (avg)" LMnem="GASA" Mnem="GASA" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="41" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="42" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="43" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="44" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="45" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="----" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="2" LogicalRecordType="152" AM="AUTOMATIC" Trigger="[DEPTH] Transmit at a specified depth interval (feet or meters)" DataSource="Data acquired in real-time when on-bottom drilling NEW hole and computed over the trigger interval">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Rate of Penetration (avg)" LMnem="ROPA" Mnem="ROPA" Type="F" Len="4" MUnit="M/HR" FUnit="F/HR" />
+      <Item Id="11" Descript="Weight-on-Bit (surf,avg)" LMnem="WOBA" Mnem="WOBA" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="12" Descript="Hookload (avg)" LMnem="HKLA" Mnem="HKLA" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="13" Descript="Standpipe Pressure (avg)" LMnem="SPPA" Mnem="SPPA" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="14" Descript="Rotary Torque (surf,avg)" LMnem="TORQA" Mnem="TQA" Type="F" Len="4" MUnit="KNM" FUnit="KFLB" />
+      <Item Id="15" Descript="Rotary Speed (surf,avg)" LMnem="RPMA" Mnem="RPMA" Type="S" Len="2" MUnit="RPM" FUnit="RPM" />
+      <Item Id="16" Descript="Bit Revolutions (cum)" LMnem="BTREVC" Mnem="BRVC" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="17" Descript="Mud Density In (avg)" LMnem="MDIA" Mnem="MDIA" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="18" Descript="ECD at Total Depth" LMnem="ECDTD" Mnem="ECDT" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="19" Descript="Mud Flow In (avg)" LMnem="MFIA" Mnem="MFIA" Type="F" Len="4" MUnit="L/M" FUnit="GPM" />
+      <Item Id="20" Descript="Mud Flow Out (avg)" LMnem="MFOA" Mnem="MFOA" Type="F" Len="4" MUnit="L/M" FUnit="GPM" />
+      <Item Id="21" Descript="Mud Flow Out %" LMnem="MFOP" Mnem="MFOP" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="22" Descript="Tank Volume (active)" LMnem="TVOLACT" Mnem="TVA" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="23" Descript="Cost/Distance (inst)" LMnem="CPDI" Mnem="CPDI" Type="F" Len="" MUnit="$/M" FUnit="$/F" />
+      <Item Id="24" Descript="Cost/Distance (cum)" LMnem="CPDC" Mnem="CPDC" Type="F" Len="4" MUnit="$/M" FUnit="$/F" />
+      <Item Id="25" Descript="Bit Drilled Time" LMnem="BTDTIME" Mnem="BDTI" Type="F" Len="4" MUnit="HR" FUnit="HR" />
+      <Item Id="26" Descript="Bit Drilled Distance" LMnem="BTDDIST" Mnem="BDDI" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="27" Descript="Corr. Drilling Exponent" LMnem="DXC" Mnem="DXC" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="28" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="29" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="30" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="31" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="32" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="33" Descript="&amp;lt; SPARE 6 &amp;gt;" LMnem="SPARE6" Mnem="SPR6" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="34" Descript="&amp;lt; SPARE 7 &amp;gt;" LMnem="SPARE7" Mnem="SPR7" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="35" Descript="&amp;lt; SPARE 8 &amp;gt;" LMnem="SPARE8" Mnem="SPR8" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="36" Descript="&amp;lt; SPARE 9 &amp;gt;" LMnem="SPARE9" Mnem="SPR9" Type="F" Len="4" MUnit="----" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="3" LogicalRecordType="153" AM="AUTOMATIC" Trigger=" [EVENT] Transmit when first back on bottom following a drilling connection" DataSource="Data acquired from first off-bottom to back on-bottom">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Connection (meas)" LMnem="DEPTCONM" Mnem="DCNM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Connection (vert)" LMnem="DEPTCONV" Mnem="DCNV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Elapsed Time Bottom-Slips" LMnem="ETIMEBTS" Mnem="ETBS" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="13" Descript="Elapsed Time In-Slips" LMnem="ETIMESLP" Mnem="ETSL" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="14" Descript="Elapsed Time Slips-Bottom" LMnem="ETIMESTB" Mnem="ETSB" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="15" Descript="Elapsed Time Pumps-Off" LMnem="ETIMEPOF" Mnem="ETPO" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="16" Descript="Running Speed - up (max)" LMnem="RSUX" Mnem="RSUX" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="17" Descript="Running Speed - down (max)" LMnem="RSDX" Mnem="RSDX" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="18" Descript="Hookload (max)" LMnem="HKLX" Mnem="HKLX" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="19" Descript="String Weight (rot,avg)" LMnem="STRGWT" Mnem="STWT" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="20" Descript="Torque - Make Up (max)" LMnem="TORQMUX" Mnem="TQMX" Type="F" Len="4" MUnit="KNM" FUnit="KFLB" />
+      <Item Id="21" Descript="Torque - Breakout (max)" LMnem="TORQBOX" Mnem="TQBX" Type="F" Len="4" MUnit="KNM" FUnit="KFLB" />
+      <Item Id="22" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="23" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="24" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="25" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="26" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="----" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="4" LogicalRecordType="154" AM="AUTOMATIC" Trigger=" [TIME] Transmit at a specified time interval (secs)" DataSource="Data acquired in real-time while circulating drilling fluid. Not sent if no circulation is taking place. Minimum and maximum values reset when record is transmitted. Other items should reflect the input and output variables used in the most recent hydraulics calculation prior to transmission.">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Depth Bit (meas)" LMnem="DEPTBITM" Mnem="DBTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Depth Bit (vert)" LMnem="DEPTBITV" Mnem="DBTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Mud Density In (avg)" LMnem="MDIA" Mnem="MDIA" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="13" Descript="Mud Flow In (avg)" LMnem="MFIA" Mnem="MFIA" Type="F" Len="4" MUnit="L/M" FUnit="GPM" />
+      <Item Id="14" Descript="Standpipe Pressure (avg)" LMnem="SPPA" Mnem="SPPA" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="15" Descript="Plastic Viscosity" LMnem="PV" Mnem="PV" Type="F" Len="4" MUnit="CP" FUnit="CP" />
+      <Item Id="16" Descript="Yield Point" LMnem="YP" Mnem="YP" Type="F" Len="4" MUnit="PA" FUnit="PHSF" />
+      <Item Id="17" Descript="Pressure Loss - bit" LMnem="PLB" Mnem="PLB" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="18" Descript="Pressure Loss - string" LMnem="PLDS" Mnem="PLDS" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="19" Descript="Pressure Loss - annulus" LMnem="PLA" Mnem="PLA" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="20" Descript="Pressure Loss - surface" LMnem="PLSU" Mnem="PLSU" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="21" Descript="Pressure Loss - mud motor" LMnem="PLMM" Mnem="PLMM" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="22" Descript="Pressure Loss - MWD tool" LMnem="PLMWD" Mnem="PLMW" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="23" Descript="Pressure Loss - % at bit" LMnem="PLPB" Mnem="PLPB" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="24" Descript="Bit Hydraulic Power" LMnem="BHP" Mnem="BHP" Type="F" Len="4" MUnit="KW" FUnit="HP" />
+      <Item Id="25" Descript="Bit Hydraulic Power/Area" LMnem="BHPA" Mnem="BHPA" Type="F" Len="4" MUnit="KWM2" FUnit="HSI" />
+      <Item Id="26" Descript="Jet Impact Force" LMnem="JIF" Mnem="JIF" Type="F" Len="4" MUnit="KDN" FUnit="LB" />
+      <Item Id="27" Descript="Jet Velocity" LMnem="JV" Mnem="JV" Type="F" Len="4" MUnit="M/S" FUnit="FPS" />
+      <Item Id="28" Descript="Annular Velocity (min)" LMnem="AVELN" Mnem="AVN" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="29" Descript="Annular Velocity (max)" LMnem="AVELX" Mnem="AVX" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="30" Descript="ECD at Total Depth" LMnem="ECDTD" Mnem="ECDT" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="31" Descript="ECD at Bit" LMnem="ECDBIT" Mnem="ECDB" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="32" Descript="ECD at Casing Shoe" LMnem="ECDCSG" Mnem="ECDC" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="33" Descript="Pump Hydraulic Power" LMnem="PHP" Mnem="PHP" Type="F" Len="4" MUnit="KW" FUnit="HP" />
+      <Item Id="34" Descript="Calc/Obs Press.Loss ratio" LMnem="PLCO" Mnem="PLCO" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="35" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="36" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="37" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="38" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="39" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="5" LogicalRecordType="155" AM="AUTOMATIC" Trigger=" [TIME] Transmit at a specified time interval (secs)" DataSource="Data aquired in real-time and computed over the trigger interval. Only sent when tripping. Average, minimum and maximum values reset when this record OR Record 6 (Tripping/Casing Connection Based) is transmitted">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Bit (meas)" LMnem="DEPTBITM" Mnem="DBTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Bit (vert)" LMnem="DEPTBITV" Mnem="DBTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Trip Number" LMnem="TRIPNUM" Mnem="TNUM" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="13" Descript="In-Slips Status" LMnem="STATUSIS" Mnem="STIS" Type="A" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="14" Descript="Hookload (avg)" LMnem="HKLA" Mnem="HKLA" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="15" Descript="Block Position" LMnem="BLKPOS" Mnem="BPOS" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="16" Descript="Running Speed - up (max)" LMnem="RSUX" Mnem="RSUX" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="17" Descript="Running Speed - down (max)" LMnem="RSDX" Mnem="RSDX" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="18" Descript="Fill/Gain Volume Obs.(cum)" LMnem="FVOLOC" Mnem="FVOC" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="19" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="20" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="21" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="22" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="23" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="6" LogicalRecordType="156" AM="AUTOMATIC" Trigger=" [EVENT] Transmit when first out of slips following a connection" DataSource="Data acquired in real-time and computed from first out of slips to next first out of slips. Only sent when tripping. Average and maximum values reset following the transmission of the record">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Bit (meas)" LMnem="DEPTBITM" Mnem="DBTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Bit (vert)" LMnem="DEPTBITV" Mnem="DBTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Trip Number" LMnem="TRIPNUM" Mnem="TNUM" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="13" Descript="Connections Done" LMnem="CONNDONE" Mnem="CDON" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="14" Descript="Connections Remaining" LMnem="CONNREM" Mnem="CREM" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="15" Descript="Elapsed Time In-Slips" LMnem="ETIMESLP" Mnem="ETSL" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="16" Descript="Elapsed Time Out-of-Slips" LMnem="ETIMEOS" Mnem="ETOS" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="17" Descript="Running Speed -up (max)" LMnem="RSUX" Mnem="RSUX" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="18" Descript="Running Speed -up (avg)" LMnem="RSUA" Mnem="RSUA" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="19" Descript="Running Speed -down (max)" LMnem="RSDX" Mnem="RSDX" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="20" Descript="Running Speed -down (avg)" LMnem="RSDA" Mnem="RSDA" Type="F" Len="4" MUnit="M/S" FUnit="FPM" />
+      <Item Id="21" Descript="Hookload (max)" LMnem="HKLX" Mnem="HKLX" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="22" Descript="Hookload (min)" LMnem="HKLN" Mnem="HKLN" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="23" Descript="Hookload (avg)" LMnem="HKLA" Mnem="HKLA" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="24" Descript="Torque - Make Up (max)" LMnem="TORQMUX" Mnem="TQMX" Type="F" Len="4" MUnit="KNM" FUnit="KFLB" />
+      <Item Id="25" Descript="Torque - Breakout (max)" LMnem="TORQBOX" Mnem="TQBX" Type="F" Len="4" MUnit="KNM" FUnit="KFLB" />
+      <Item Id="26" Descript="Fill/Gain Volume Obs." LMnem="FVOLO" Mnem="FVO" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="27" Descript="Fill/Gain Volume Exp." LMnem="FVOLE" Mnem="FVE" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="28" Descript="Fill/Gain Volume Obs.(cum)" LMnem="FVOLOC" Mnem="FVOC" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="29" Descript="Fill/Gain Volume Exp (cum)" LMnem="FVOLEC" Mnem="FVEC" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="30" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="31" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="32" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="33" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="34" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="7" LogicalRecordType="157" AM="AUTO(MWD)/MANUAL" Trigger=" [EVENT] Transmit when new survey data values are received and computed (MWD) or when manually ed by operator" DataSource="Data acquired in real-time by MWD tools or entered manually from other sources">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Svy/reading (meas)" LMnem="DEPTSVYM" Mnem="DSVM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Svy/reading (vert)" LMnem="DEPTSVYV" Mnem="DSVV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Pass Number" LMnem="PASSNUM" Mnem="PASS" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="11" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Svy Type" LMnem="SVYTYPE" Mnem="STYP" Type="A" Len="8" MUnit="----" FUnit="----" />
+      <Item Id="13" Descript="Svy Inclination" LMnem="SVYINC" Mnem="SINC" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="14" Descript="Svy Azimuth (uncorrected)" LMnem="SVYAZU" Mnem="SAZU" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="15" Descript="Svy Azimuth (corrected)" LMnem="SVYAZC" Mnem="SAZC" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="16" Descript="Svy Magnetic Toolface" LMnem="SVYMTF" Mnem="SMTF" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="17" Descript="Svy Gravity Toolface" LMnem="SVYGTF" Mnem="SGTF" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="18" Descript="Svy North-South Position" LMnem="SVYNS" Mnem="SNS" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="19" Descript="Svy East-West Position" LMnem="SVYEW" Mnem="SEW" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="20" Descript="Svy Dog Leg Severity" LMnem="SVYDLS" Mnem="SDLS" Type="F" Len="4" MUnit="DGHM" FUnit="DGHF" />
+      <Item Id="21" Descript="Svy Rate of Walk" LMnem="SVYWALK" Mnem="SWLK" Type="F" Len="4" MUnit="DGHM" FUnit="DGHF" />
+      <Item Id="22" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="23" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="24" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="25" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="26" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="8" LogicalRecordType="158" AM="AUTOMATIC" Trigger=" [TIME], [DEPTH] or [TIME/DEPTH] Transmit at specified time interval (secs), depth interval (feet or meters) based on hole depth when drilling new hole or making a new pass, or a combination of these." DataSource="Data acquired in real-time and computed over the trigger interval. Record transmitted and computations reset when triggering interval occurs. If DEPTH-triggered, then only on-bottom data is included in computations. Depths of MWD sensors transmitted in the record are the depths for the last valid reading for that sensor. Record is not sent if not circulating or tool is not operating">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Depth Bit (meas)" LMnem="DEPTBITM" Mnem="DBTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Depth Bit (vert)" LMnem="DEPTBITV" Mnem="DBTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Pass Number" LMnem="PASSNUM" Mnem="PASS" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="13" Descript="Depth Resis 1 sensor (meas)" LMnem="DEPTRS1M" Mnem="DR1M" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="14" Descript="Depth Resis 1 sensor (vert)" LMnem="DEPTRS1V" Mnem="DR1V" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="15" Descript="Resis 1 reading" LMnem="MR1" Mnem="MR1" Type="F" Len="4" MUnit="OHMM" FUnit="OHMM" />
+      <Item Id="16" Descript="Resis 1 (borehole corr)" LMnem="MR1C" Mnem="MR1C" Type="F" Len="4" MUnit="OHMM" FUnit="OHMM" />
+      <Item Id="17" Descript="Depth Resis 2 sensor (meas)" LMnem="DEPTRS2M" Mnem="DR2M" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="18" Descript="Depth Resis 2 sensor (vert)" LMnem="DEPTRS2V" Mnem="DR2V" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="19" Descript="Resis 2 reading" LMnem="MR2" Mnem="MR2" Type="F" Len="4" MUnit="OHMM" FUnit="OHMM" />
+      <Item Id="20" Descript="Resis 2 (borehole corr)" LMnem="MR2C" Mnem="MR2C" Type="F" Len="4" MUnit="OHMM" FUnit="OHMM" />
+      <Item Id="21" Descript="Depth G.Ray 1 sensor(meas)" LMnem="DEPTGR1M" Mnem="DG1M" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="22" Descript="Depth G.Ray 1 sensor(vert)" LMnem="DEPTGR1V" Mnem="DG1V" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="23" Descript="Gamma Ray 1 reading" LMnem="MG1" Mnem="MG1" Type="F" Len="4" MUnit="API" FUnit="API" />
+      <Item Id="24" Descript="Gamma Ray 1(borehole corr)" LMnem="MG1C" Mnem="MG1C" Type="F" Len="4" MUnit="API" FUnit="API" />
+      <Item Id="25" Descript="Depth G.Ray 2 sensor(meas)" LMnem="DEPTGR2M" Mnem="DG2M" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="26" Descript="Depth G.Ray 2 sensor(vert)" LMnem="DEPTGR2V" Mnem="DG2V" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="27" Descript="Gamma Ray 2 reading" LMnem="MG2" Mnem="MG2" Type="F" Len="4" MUnit="API" FUnit="API" />
+      <Item Id="28" Descript="Gamma Ray 2(borehole corr)" LMnem="MG2C" Mnem="MG2C" Type="F" Len="4" MUnit="API" FUnit="API" />
+      <Item Id="29" Descript="Depth Por 1 sensor (meas)" LMnem="DEPTP1M" Mnem="DP1M" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="30" Descript="Depth Por 1 sensor (vert)" LMnem="DEPTP1V" Mnem="DP1V" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="31" Descript="Porosity Tool 1 reading" LMnem="MPO1" Mnem="MPO1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="32" Descript="Depth Por 2 sensor (meas)" LMnem="DEPTP2M" Mnem="DP2M" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="33" Descript="Depth Por 2 sensor (vert)" LMnem="DEPTP2V" Mnem="DP2V" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="34" Descript="Porosity Tool 2 reading" LMnem="MPO2" Mnem="MPO2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="35" Descript="Downhole Fluid Temp (ann)" LMnem="MFTANN" Mnem="MFTA" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="36" Descript="Downhole Fluid Temp (pipe)" LMnem="MFTPIPE" Mnem="MFTP" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="37" Descript="Downhole Fluid Resis (ann)" LMnem="MFRANN" Mnem="MFRA" Type="F" Len="4" MUnit="OHMM" FUnit="OHMM" />
+      <Item Id="38" Descript="Downhole Fluid Resis (pipe)" LMnem="MFRPIPE" Mnem="MFRP" Type="F" Len="4" MUnit="OHMM" FUnit="OHMM" />
+      <Item Id="39" Descript="Depth Form Density (meas)" LMnem="DEPTFDM" Mnem="DFDM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="40" Descript="Depth Form Density (vert)" LMnem="DEPTFDV" Mnem="DFDV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="41" Descript="Formation Density" LMnem="MFD" Mnem="MFD" Type="F" Len="4" MUnit="G/CC" FUnit="G/CC" />
+      <Item Id="42" Descript="Depth Caliper (meas)" LMnem="DEPTCALM" Mnem="DCLM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="43" Descript="Depth Caliper (vert)" LMnem="DEPTCALV" Mnem="DCLV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="44" Descript="Caliper" LMnem="MCLP" Mnem="MCLP" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="45" Descript="Pore Pressure Grad MWD" LMnem="MFPP" Mnem="MFPP" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="46" Descript="Frac Pressure Grad MWD" LMnem="MFFP" Mnem="MFFP" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="47" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="48" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="49" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="50" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="51" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+      <Item Id="52" Descript="&amp;lt; SPARE 6 &amp;gt;" LMnem="SPARE6" Mnem="SPR6" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="53" Descript="&amp;lt; SPARE 7 &amp;gt;" LMnem="SPARE7" Mnem="SPR7" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="54" Descript="&amp;lt; SPARE 8 &amp;gt;" LMnem="SPARE8" Mnem="SPR8" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="55" Descript="&amp;lt; SPARE 9 &amp;gt;" LMnem="SPARE9" Mnem="SPR9" Type="F" Len="4" MUnit="----" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="9" LogicalRecordType="159" AM="AUTOMATIC" Trigger=" [TIME], [DEPTH] or [TIME/DEPTH] Transmit at specified time interval (secs), depth interval (feet or meters) based on hole depth when drilling new hole or making a new pass, or a combination of these" DataSource="Data acquired in real-time and computed over the trigger interval. Record transmitted and computations reset when triggering interval occurs. If DEPTH-triggered, then only on-bottom data is included in computations. Record is not sent if not circulating or tool is not operating">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Depth Bit (meas)" LMnem="DEPTBITM" Mnem="DBTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Depth Bit (vert)" LMnem="DEPTBITV" Mnem="DBTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Pass Number" LMnem="PASSNUM" Mnem="PASS" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="13" Descript="Bottom-hole annulus press" LMnem="MBHPANN" Mnem="MBPA" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="14" Descript="Bottom-hole internal press" LMnem="MBHPINT" Mnem="MBPI" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="15" Descript="Downhole Wt-on-Bit (avg)" LMnem="MWOBA" Mnem="MWBA" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="16" Descript="Downhole Wt-on-Bit (max)" LMnem="MWOBX" Mnem="MWBX" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="17" Descript="Downhole Torque (avg)" LMnem="MTORQA" Mnem="MTQA" Type="F" Len="4" MUnit="KNM" FUnit="KFLB" />
+      <Item Id="18" Descript="Downhole Torque (max)" LMnem="MTORQX" Mnem="MTQX" Type="F" Len="4" MUnit="KNM" FUnit="KFLB" />
+      <Item Id="19" Descript="Downhole Motor RPM" LMnem="MMMRPM" Mnem="MMRP" Type="S" Len="2" MUnit="RPM" FUnit="RPM" />
+      <Item Id="20" Descript="MWD Tool Alternator Voltage" LMnem="MALTVOLT" Mnem="MALT" Type="S" Len="2" MUnit="V" FUnit="V" />
+      <Item Id="21" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="22" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="23" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="24" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="25" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+      <Item Id="26" Descript="&amp;lt; SPARE 6 &amp;gt;" LMnem="SPARE6" Mnem="SPR6" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="27" Descript="&amp;lt; SPARE 7 &amp;gt;" LMnem="SPARE7" Mnem="SPR7" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="28" Descript="&amp;lt; SPARE 8 &amp;gt;" LMnem="SPARE8" Mnem="SPR8" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="29" Descript="&amp;lt; SPARE 9 &amp;gt;" LMnem="SPARE9" Mnem="SPR9" Type="F" Len="4" MUnit="----" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="10" LogicalRecordType="160" AM="AUTOMATIC/MANUAL" Trigger=" [EVENT] Transmit when new pressure evaluation data values are available" DataSource="Data acquired in real-time and computed over the trigger interval. Record transmitted and compuations reset when the record is transmitted">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Depth Sample (meas)" LMnem="DEPTSAMM" Mnem="DSAM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Depth Sample (vert)" LMnem="DEPTSAMV" Mnem="DSAV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Est. Form. Pore Press Grad." LMnem="FPOREPG" Mnem="FPPG" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="13" Descript="Est. Form. Frac Press Grad." LMnem="FFRACPG" Mnem="FFPG" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="14" Descript="Est. Form. Overburden Grad." LMnem="FOBPG" Mnem="FOPG" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="15" Descript="Est. Kick Tolerance" LMnem="KTOL" Mnem="KTOL" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="16" Descript="Max. Permitted SICP (init)" LMnem="PSIPX" Mnem="PSIP" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="17" Descript="Connection Gas (avg)" LMnem="CONNGASA" Mnem="CGSA" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="18" Descript="Connection Gas (max)" LMnem="CONNGASX" Mnem="CGSX" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="19" Descript="Connection Gas (last)" LMnem="CONNGASL" Mnem="CGSL" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="20" Descript="Last Trip Gas" LMnem="TRIPGAS" Mnem="TGAS" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="21" Descript="Shale Density" LMnem="SHALEDEN" Mnem="SDEN" Type="F" Len="4" MUnit="G/CC" FUnit="G/CC" />
+      <Item Id="22" Descript="Cuttings CEC" LMnem="CEC" Mnem="CEC" Type="F" Len="4" MUnit="MEHG" FUnit="MEHG" />
+      <Item Id="23" Descript="Cavings %" LMnem="CAVINGS" Mnem="CAV" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="24" Descript="Corr. Drilling Exponent" LMnem="DXC" Mnem="DXC" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="25" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="26" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="27" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="28" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="29" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+      <Item Id="30" Descript="&amp;lt; SPARE 6 &amp;gt;" LMnem="SPARE6" Mnem="SPR6" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="31" Descript="&amp;lt; SPARE 7 &amp;gt;" LMnem="SPARE7" Mnem="SPR7" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="32" Descript="&amp;lt; SPARE 8 &amp;gt;" LMnem="SPARE8" Mnem="SPR8" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="33" Descript="&amp;lt; SPARE 9 &amp;gt;" LMnem="SPARE9" Mnem="SPR9" Type="F" Len="4" MUnit="----" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="11" LogicalRecordType="161" AM="AUTOMATIC" Trigger=" [TIME] Transmit at a specified time interval (secs)" DataSource="Data acquired in real-time and computed over the trigger interval; record transmitted and computations reset when triggering interval occurs">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Tank Volume (total)" LMnem="TVOLTOT" Mnem="TVT" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="11" Descript="Tank Volume (active)" LMnem="TVOLACT" Mnem="TVA" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="12" Descript="Tank Volume Change (total)" LMnem="TVOLCTOT" Mnem="TVCT" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="13" Descript="Tank Volume Change (active)" LMnem="TVOLCACT" Mnem="TVCA" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="14" Descript="Tank Volume Reset Time" LMnem="TVRESET" Mnem="TVRT" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="15" Descript="Tank 01 Volume" LMnem="TVOL01" Mnem="TV01" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="16" Descript="Tank 02 Volume" LMnem="TVOL02" Mnem="TV02" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="17" Descript="Tank 03 Volume" LMnem="TVOL03" Mnem="TV03" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="18" Descript="Tank 04 Volume" LMnem="TVOL04" Mnem="TV04" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="19" Descript="Tank 05 Volume" LMnem="TVOL05" Mnem="TV05" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="20" Descript="Tank 06 Volume" LMnem="TVOL06" Mnem="TV06" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="21" Descript="Tank 07 Volume" LMnem="TVOL07" Mnem="TV07" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="22" Descript="Tank 08 Volume" LMnem="TVOL08" Mnem="TV08" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="23" Descript="Tank 09 Volume" LMnem="TVOL09" Mnem="TV09" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="24" Descript="Tank 10 Volume" LMnem="TVOL10" Mnem="TV10" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="25" Descript="Tank 11 Volume" LMnem="TVOL11" Mnem="TV11" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="26" Descript="Tank 12 Volume" LMnem="TVOL12" Mnem="TV12" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="27" Descript="Tank 13 Volume" LMnem="TVOL13" Mnem="TV13" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="28" Descript="Tank 14 Volume" LMnem="TVOL14" Mnem="TV14" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="29" Descript="Trip Tank 1 Volume" LMnem="TTVOL1" Mnem="TTV1" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="30" Descript="Trip Tank 2 Volume" LMnem="TTVOL2" Mnem="TTV2" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="31" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="32" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="33" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="34" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="35" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="12" LogicalRecordType="162" AM="AUTOMATIC" Trigger=" Transmit at the completion of a valid chomatograph cycle while circulating." DataSource="Data acquired in real-time from each valid chomatograph cycle. Not sent if no circulation is taking place">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Chrom Sample (meas)" LMnem="DEPTCHRM" Mnem="DCHM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Chrom Sample (vert)" LMnem="DEPTCHRV" Mnem="DCHV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Date Chrom Sample" LMnem="DATECHR" Mnem="DCHR" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="11" Descript="Time Chrom Sample" LMnem="TIMECHR" Mnem="TCHR" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="12" Descript="Methane (C1)" LMnem="METHANE" Mnem="METH" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="13" Descript="Ethane (C2)" LMnem="ETHANE" Mnem="ETH" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="14" Descript="Propane (C3)" LMnem="PROPANE" Mnem="PRP" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="15" Descript="Iso-Butane (IC4)" LMnem="IBUTANE" Mnem="IBUT" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="16" Descript="Nor-Butane (NC4)" LMnem="NBUTANE" Mnem="NBUT" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="17" Descript="Iso-Pentane (IC5)" LMnem="IPENTANE" Mnem="IPEN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="18" Descript="Nor-Pentane (NC5)" LMnem="NPENTANE" Mnem="NPEN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="19" Descript="Neo-Pentane (EC5)" LMnem="EPENTANE" Mnem="EPEN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="20" Descript="Iso-Hexane (IC6)" LMnem="IHEXANE" Mnem="IHEX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="21" Descript="Nor-Hexane (NC6)" LMnem="NHEXANE" Mnem="NHEX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="22" Descript="Carbon Dioxide" LMnem="CO2" Mnem="CO2" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="23" Descript="Acetylene" LMnem="ACET" Mnem="ACET" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="24" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="25" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="26" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="27" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="28" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="13" LogicalRecordType="163" AM="AUTOMATIC" Trigger=" [DEPTH] Transmit at the specified depth interval (feet or meters) based on the returns depth." DataSource="Data acquired in real-time from each valid chomatograph cycle. Record transmitted and computations reset when the triggering interval occurs. Record not sent if circulation not taking place or if bottoms up has been achieved resulting in no further increase in returns depth">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Returns (meas)" LMnem="DEPTRETM" Mnem="DRTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Returns (vert)" LMnem="DEPTRETV" Mnem="DRTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Methane (C1) (avg)" LMnem="METHA" Mnem="MTHA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="11" Descript="Methane (C1) (min)" LMnem="METHN" Mnem="MTHN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="12" Descript="Methane (C1) (max)" LMnem="METHX" Mnem="MTHX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="13" Descript="Ethane (C2) (avg)" LMnem="ETHA" Mnem="ETHA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="14" Descript="Ethane (C2) (min)" LMnem="ETHN" Mnem="ETHN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="15" Descript="Ethane (C2) (max)" LMnem="ETHX" Mnem="ETHX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="16" Descript="Propane (C3) (avg)" LMnem="PROPA" Mnem="PRPA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="17" Descript="Propane (C3) (min)" LMnem="PROPN" Mnem="PRPN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="18" Descript="Propane (C3) (max)" LMnem="PROPX" Mnem="PRPX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="19" Descript="Iso-Butane (IC4) (avg)" LMnem="IBUTA" Mnem="IBTA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="20" Descript="Iso-Butane (IC4) (min)" LMnem="IBUTN" Mnem="IBTN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="21" Descript="Iso-Butane (IC4) (max)" LMnem="IBUTX" Mnem="IBTX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="22" Descript="Nor-Butane (NC4) (avg)" LMnem="NBUTA" Mnem="NBTA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="23" Descript="Nor-Butane (NC4) (min)" LMnem="NBUTN" Mnem="NBTN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="24" Descript="Nor-Butane (NC4) (max)" LMnem="NBUTX" Mnem="NBTX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="25" Descript="Iso-Pentane (IC5) (avg)" LMnem="IPENTA" Mnem="IPNA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="26" Descript="Iso-Pentane (IC5) (min)" LMnem="IPENTN" Mnem="IPNN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="27" Descript="Iso-Pentane (IC5) (max)" LMnem="IPENTX" Mnem="IPNX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="28" Descript="Nor-Pentane (NC5) (avg)" LMnem="NPENTA" Mnem="NPNA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="29" Descript="Nor-Pentane (NC5) (min)" LMnem="NPENTN" Mnem="NPNN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="30" Descript="Nor-Pentane (NC5) (max)" LMnem="NPENTX" Mnem="NPNX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="31" Descript="Neo-Pentane (EC5) (avg)" LMnem="EPENTA" Mnem="EPNA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="32" Descript="Neo-Pentane (EC5) (min)" LMnem="EPENTN" Mnem="EPNN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="33" Descript="Neo-Pentane (EC5) (max)" LMnem="EPENTX" Mnem="EPNX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="34" Descript="Iso-Hexane (IC6) (avg)" LMnem="IHEXA" Mnem="IHXA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="35" Descript="Iso-Hexane (IC6) (min)" LMnem="IHEXN" Mnem="IHXN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="36" Descript="Iso-Hexane (IC6) (max)" LMnem="IHEXX" Mnem="IHXX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="37" Descript="Nor-Hexane (NC6) (avg)" LMnem="NHEXA" Mnem="NHXA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="38" Descript="Nor-Hexane (NC6) (min)" LMnem="NHEXN" Mnem="NHXN" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="39" Descript="Nor-Hexane (NC6) (max)" LMnem="NHEXX" Mnem="NHXX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="40" Descript="Carbon Dioxide (avg)" LMnem="CO2A" Mnem="CO2A" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="41" Descript="Carbon Dioxide (min)" LMnem="CO2N" Mnem="CO2N" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="42" Descript="Carbon Dioxide (max)" LMnem="CO2X" Mnem="CO2X" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="43" Descript="Acetylene" LMnem="ACET" Mnem="ACET" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="44" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="45" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="46" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="47" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="48" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="14" LogicalRecordType="164" AM="AUTOMATIC" Trigger=" [TIME], [DEPTH] or [TIME/DEPTH] Transmit at the specified time interval (secs), depth interval (feet or meters) based on the returns depth, or a combination of these." DataSource="Data acquired in real-time and computed over the interval. Record transmitted and computations reset when the triggering interval occurs. If a depth interval is specified, it is active until bottoms-up occurs. Time intervals, if specified, are reset following the transmission of the record by either depth or time trigger. Not sent if no circulation is taking place">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Returns (meas)" LMnem="DEPTRETM" Mnem="DRTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Returns (vert)" LMnem="DEPTRETV" Mnem="DRTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Mud Density In (lagd)" LMnem="MDIL" Mnem="MDIL" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="11" Descript="Mud Density Out (avg)" LMnem="MDOA" Mnem="MDOA" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="12" Descript="Mud Temperature In (lagd)" LMnem="MTIL" Mnem="MTIL" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="13" Descript="Mud Temperature Out (avg)" LMnem="MTOA" Mnem="MTOA" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="14" Descript="Mud Conductivity In (lagd)" LMnem="MCIL" Mnem="MCIL" Type="F" Len="4" MUnit="MMHO" FUnit="MMHO" />
+      <Item Id="15" Descript="Mud Conductivity Out (avg)" LMnem="MCOA" Mnem="MCOA" Type="F" Len="4" MUnit="MMHO" FUnit="MMHO" />
+      <Item Id="16" Descript="Hyd.Sulfide Haz.Pot. (avg)" LMnem="HSHPA" Mnem="HHPA" Type="F" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="17" Descript="Hyd.Sulfide pH (avg)" LMnem="HSPHA" Mnem="HPHA" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="18" Descript="Hyd.Sulfide pHS (avg)" LMnem="HSPHSA" Mnem="HPSA" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="19" Descript="Gas In (lagd)" LMnem="GASIL" Mnem="GSIL" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="20" Descript="Gas (avg)" LMnem="GASA" Mnem="GASA" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="21" Descript="Gas (max)" LMnem="GASX" Mnem="GASX" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="22" Descript="Carbon Dioxide (avg)" LMnem="CO2A" Mnem="CO2A" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="23" Descript="Hydrogen Sulfide (avg)" LMnem="HSA" Mnem="HSA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="24" Descript="Hydrogen Sulfide (max)" LMnem="HSX" Mnem="HSX" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="25" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="26" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="27" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="28" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="29" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="15" LogicalRecordType="165" AM="MANUAL" Trigger=" [EVENT] Transmission is operator-initiated" DataSource="Manually-entered data from sample examination sent when new data values are available">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Sample (meas)" LMnem="DEPTSAMM" Mnem="DSAM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Sample (vert)" LMnem="DEPTSAMV" Mnem="DSAV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Description type" LMnem="DESCTYPE" Mnem="DESC" Type="A" Len="8" MUnit="----" FUnit="----" />
+      <Item Id="11" Descript="Lith 1 type" LMnem="L1TYPE" Mnem="L1TY" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="12" Descript="Lith 1 %" LMnem="L1PERC" Mnem="L1PC" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="13" Descript="Lith 1 classification" LMnem="L1CLASS" Mnem="L1CL" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="14" Descript="Lith 1 color" LMnem="L1COLOR" Mnem="L1CO" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="15" Descript="Lith 1 texture" LMnem="L1TEXT" Mnem="L1TX" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="16" Descript="Lith 1 hardness" LMnem="L1HARD" Mnem="L1HD" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="17" Descript="Lith 1 grain size" LMnem="L1SIZE" Mnem="L1SZ" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="18" Descript="Lith 1 roundness" LMnem="L1ROUND" Mnem="L1RD" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="19" Descript="Lith 1 sorting" LMnem="L1SORT" Mnem="L1SO" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="20" Descript="Lith 1 matrix/cement" LMnem="L1MATCEM" Mnem="L1MC" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="21" Descript="Lith 1 accessories" LMnem="L1ACC" Mnem="L1AC" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="22" Descript="Lith 1 porosity" LMnem="L1POR" Mnem="L1PO" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="23" Descript="Lith 1 permeability" LMnem="L1PERM" Mnem="L1PE" Type="F" Len="4" MUnit="MD" FUnit="MD" />
+      <Item Id="24" Descript="Lith 2 type" LMnem="L2TYPE" Mnem="L2TY" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="25" Descript="Lith 2 %" LMnem="L2PERC" Mnem="L2PC" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="26" Descript="Lith 2 classification" LMnem="L2CLASS" Mnem="L2CL" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="27" Descript="Lith 2 color" LMnem="L2COLOR" Mnem="L2CO" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="28" Descript="Lith 2 texture" LMnem="L2TEXT" Mnem="L2TX" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="29" Descript="Lith 2 hardness" LMnem="L2HARD" Mnem="L2HD" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="30" Descript="Lith 2 grain size" LMnem="L2SIZE" Mnem="L2SZ" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="31" Descript="Lith 2 roundness" LMnem="L2ROUND" Mnem="L2RD" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="32" Descript="Lith 2 sorting" LMnem="L2SORT" Mnem="L2SO" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="33" Descript="Lith 2 matrix/cement" LMnem="L2MATCEM" Mnem="L2MC" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="34" Descript="Lith 2 accessories" LMnem="L2ACC" Mnem="L2AC" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="35" Descript="Lith 2 porosity" LMnem="L2POR" Mnem="L2PO" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="36" Descript="Lith 2 permeability" LMnem="L2PERM" Mnem="L2PE" Type="F" Len="4" MUnit="MD" FUnit="MD" />
+      <Item Id="37" Descript="Lith 3 type" LMnem="L3TYPE" Mnem="L3TY" Type="A" Len="16" MUnit="---- -" FUnit="---" />
+      <Item Id="38" Descript="Lith 3 %" LMnem="L3PERC" Mnem="L3PC" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="39" Descript="Lith 3 classification" LMnem="L3CLASS" Mnem="L3CL" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="40" Descript="Lith 4 type" LMnem="L4TYPE" Mnem="L4TY" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="41" Descript="Lith 4 %" LMnem="L4PERC" Mnem="L4PC" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="42" Descript="Lith 4 classification" LMnem="L4CLASS" Mnem="L4CL" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="43" Descript="Lith 5 type" LMnem="L5TYPE" Mnem="L5TY" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="44" Descript="Lith 5 %" LMnem="L5PERC" Mnem="L5PC" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="45" Descript="Lith 5 classification" LMnem="L5CLASS" Mnem="L5CL" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="46" Descript="Fossils" LMnem="FOSS" Mnem="FOSS" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="47" Descript="Composite Show" LMnem="COMPSHOW" Mnem="SHOW" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="48" Descript="Bulk Density" LMnem="BULKDEN" Mnem="BDEN" Type="F" Len="4" MUnit="G/CC" FUnit="G/CC" />
+      <Item Id="49" Descript="Cuttings Gas" LMnem="GASCUTT" Mnem="GCUT" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="50" Descript="Calcimetry Calcite %" LMnem="CCAL" Mnem="CCAL" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="51" Descript="Calcimetry Dolomite %" LMnem="CDOL" Mnem="CDOL" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="52" Descript="Cuttings CEC" LMnem="CEC" Mnem="CEC" Type="F" Len="4" MUnit="MEHG" FUnit="MEHG" />
+      <Item Id="53" Descript="Cavings %" LMnem="CAVINGS" Mnem="CAV" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="54" Descript="Shale Density" LMnem="SHALEDEN" Mnem="SDEN" Type="F" Len="4" MUnit="G/CC" FUnit="G/CC" />
+      <Item Id="55" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="56" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="57" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="58" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="59" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="16" LogicalRecordType="166" AM="MANUAL" Trigger=" [EVENT] Transmission is operator-initiated" DataSource="Manually-entered data when a hydrocarbon show is detected. Sent when new data values are available.">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Show Number" LMnem="SHOWNUM" Mnem="SWNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="9" Descript="Show Intvl Top Depth (meas)" LMnem="DEPTSITM" Mnem="DSTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Show Intvl Top Depth (vert)" LMnem="DEPTSITV" Mnem="DSTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Show Intvl Bott Depth(meas)" LMnem="DEPTSIBM" Mnem="DSBM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Show Intvl Bott Depth(vert)" LMnem="DEPTSIBV" Mnem="DSBV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="13" Descript="Show Lith type" LMnem="SHLTYPE" Mnem="WLTY" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="14" Descript="Show Lith classification" LMnem="SHLCLASS" Mnem="WLCL" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="15" Descript="Show Lith color" LMnem="SHLCOLOR" Mnem="WLCO" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="16" Descript="Show Lith texture" LMnem="SHLTEXT" Mnem="WLTX" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="17" Descript="Show Lith hardness" LMnem="SHLHARD" Mnem="WLHD" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="18" Descript="Show Lith grain size" LMnem="SHLSIZE" Mnem="WLSZ" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="19" Descript="Show Lith roundness" LMnem="SHLROUND" Mnem="WLRD" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="20" Descript="Show Lith sorting" LMnem="SHLSORT" Mnem="WLSO" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="21" Descript="Show Lith matrix/cement" LMnem="SHLMC" Mnem="WLMC" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="22" Descript="Show Lith accessories" LMnem="SHLACC" Mnem="WLAC" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="23" Descript="Show Lith porosity -visible" LMnem="SHLPORV" Mnem="WLPV" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="24" Descript="Show Lith porosity -meas" LMnem="SHLPORM" Mnem="WLPM" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="25" Descript="Show Lith permeability" LMnem="SHLPERM" Mnem="WLPE" Type="F" Len="4" MUnit="MD" FUnit="MD" />
+      <Item Id="26" Descript="Show Lith stain description" LMnem="SHLSTAIN" Mnem="WLST" Type="A" Len="64" MUnit="----" FUnit="----" />
+      <Item Id="27" Descript="Show Lith fluor description" LMnem="SHLFLUOR" Mnem="WLFL" Type="A" Len="64" MUnit="----" FUnit="----" />
+      <Item Id="28" Descript="Show Lith cut description" LMnem="SHLCUT" Mnem="WLCT" Type="A" Len="64" MUnit="----" FUnit="----" />
+      <Item Id="29" Descript="Show Lith cuttings gas" LMnem="SHLGCUT" Mnem="WLGC" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="30" Descript="Show titrated salinity" LMnem="SHSAL" Mnem="WSAL" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="31" Descript="Show Mud Smple Methane" LMnem="METHMUD" Mnem="MTHM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="32" Descript="Show Mud Smple Ethane" LMnem="ETHMUD" Mnem="ETHM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="33" Descript="Show Mud Smple Propane" LMnem="PROPMUD" Mnem="PRPM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="34" Descript="Show Mud Smple I-Butane" LMnem="IBUTMUD" Mnem="IBTM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="35" Descript="Show Mud Smple N-Butane" LMnem="NBUTMUD" Mnem="NBTM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="36" Descript="Show Mud Smple I-Pentane" LMnem="IPENMUD" Mnem="IPNM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="37" Descript="Show Mud Smple N-Pentane" LMnem="NPENMUD" Mnem="NPNM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="38" Descript="Show Mud Smple N-Pentane" LMnem="EPENMUD" Mnem="EPNM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="39" Descript="Show Mud Smple I-Hexane" LMnem="IHEXMUD" Mnem="IHXM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="40" Descript="Show Mud Smple N-Hexane" LMnem="NHEXMUD" Mnem="NHXM" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="41" Descript="Show Comments" LMnem="SHOWCOMM" Mnem="WCOM" Type="A" Len="128" MUnit="----" FUnit="----" />
+      <Item Id="42" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="43" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="44" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="45" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="46" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="17" LogicalRecordType="167" AM="AUTOMATIC" Trigger=" [TIME] Transmit at a specified time interval (secs)" DataSource="Data acquired in real-time (possibly via Level 0 transfer). Averages are computed over the triggering interval and reset when the record is transmitted. Record only transmitted during a cementing operation">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Depth Casing Shoe (meas)" LMnem="DEPTCSGM" Mnem="DCGM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="Depth Casing Shoe (vert)" LMnem="DEPTCSGV" Mnem="DCGV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Cem Pump Pressure (avg)" LMnem="CEMPPA" Mnem="CPPA" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="13" Descript="Hookload (avg)" LMnem="HKLA" Mnem="HKLA" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="14" Descript="Block Position" LMnem="BLKPOS" Mnem="BPOS" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="15" Descript="Cem Flow Rate In (calc)" LMnem="CEMFIC" Mnem="CFIC" Type="F" Len="4" MUnit="M3/M" FUnit="BPM" />
+      <Item Id="16" Descript="Cem Flow Rate In (avg)" LMnem="CEMFIA" Mnem="CFIA" Type="F" Len="4" MUnit="M3/M" FUnit="BPM" />
+      <Item Id="17" Descript="Cem Flow Rate Out (avg)" LMnem="CEMFOA" Mnem="CFOA" Type="F" Len="4" MUnit="M3/M" FUnit="BPM" />
+      <Item Id="18" Descript="Cem Flow Out %" LMnem="CEMFOP" Mnem="CFOP" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="19" Descript="Cem Fluid Dens In (avg)" LMnem="CEMDIA" Mnem="CDIA" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="20" Descript="Cem Fluid Dens Out (avg)" LMnem="CEMDOA" Mnem="CDOA" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="21" Descript="ECD at Casing Shoe" LMnem="ECDCSG" Mnem="ECDC" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="22" Descript="Cem Fluid Temp In (avg)" LMnem="CEMTIA" Mnem="CTIA" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="23" Descript="Cem Fluid Temp Out (avg)" LMnem="CEMTOA" Mnem="CTOA" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="24" Descript="Cem Stage Number" LMnem="CEMSTAGE" Mnem="CSTG" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="25" Descript="Cem Depth to DV Tool" LMnem="DEPTDVT" Mnem="DDVT" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="26" Descript="Cem Fluid Type/Batch" LMnem="CEMFTYPE" Mnem="CTYP" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="27" Descript="Cem Cumulative Returns" LMnem="CEMCUMRT" Mnem="CCRT" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="28" Descript="Cem Indiv Vol Pumped" LMnem="CEMIVOL" Mnem="CIVL" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="29" Descript="Cem Cement Vol Pumped" LMnem="CEMCVOL" Mnem="CCVL" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="30" Descript="Cem Total Vol Pumped" LMnem="CEMTVOL" Mnem="CTVL" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="31" Descript="Cem Volume to Bump Plug" LMnem="CEMBPVOL" Mnem="CBVL" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="32" Descript="Cem No./Status of Plug(s)" LMnem="CEMPLUGS" Mnem="CPLG" Type="A" Len="8" MUnit="----" FUnit="----" />
+      <Item Id="33" Descript="Cem Job Type" LMnem="CEMJTYP" Mnem="CJTY" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="34" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="35" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="36" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="37" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="38" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="18" LogicalRecordType="168" AM="AUTOMATIC" Trigger=" [TIME] Transmit at a specified time interval (secs)" DataSource="Data acquired in real-time (possibly via Level 0 transfer). Record only sent during a drill stem testing operation">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="DST identification" LMnem="DSTID" Mnem="DSID" Type="A" Len="8" MUnit="----" FUnit="----" />
+      <Item Id="9" Descript="DST Intvl Top Depth (meas)" LMnem="DEPTDITM" Mnem="DDTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="DST Intvl Top Depth (vert)" LMnem="DEPTDITV" Mnem="DDTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="11" Descript="DST Intvl Bott Depth (meas)" LMnem="DEPTDIBM" Mnem="DDBM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="DST Intvl Bott Depth (vert)" LMnem="DEPTDIBV" Mnem="DDBV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="13" Descript="DST Tool Time" LMnem="DSTTTIME" Mnem="DTTI" Type="L" Len="4" MUnit="HR" FUnit="HR" />
+      <Item Id="14" Descript="DST State of Well" LMnem="DSTSTATE" Mnem="DSTA" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="15" Descript="DST Surf Pressure, Tubing" LMnem="DSTSPTUB" Mnem="DSPT" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="16" Descript="DST Surf Pressure, Casing" LMnem="DSTSPCAS" Mnem="DSPC" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="17" Descript="DST Surf Temp, Tubing" LMnem="DSTSTTUB" Mnem="DSTT" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="18" Descript="DST Bottom Hole Pressure" LMnem="DSTBHP" Mnem="DBHP" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="19" Descript="DST Bottom Hole Temp" LMnem="DSTBHT" Mnem="DBHT" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="20" Descript="DST Liquid Flow Rate" LMnem="DSTLIQFR" Mnem="DLFR" Type="F" Len="4" MUnit="M3/D" FUnit="BPD" />
+      <Item Id="21" Descript="DST Gas Flow Rate" LMnem="DSTGASFR" Mnem="DGFR" Type="F" Len="4" MUnit="MCMD" FUnit="MCFD" />
+      <Item Id="22" Descript="DST Total Flow Rate" LMnem="DSTTOTFR" Mnem="DTFR" Type="F" Len="4" MUnit="M3/D" FUnit="BPD" />
+      <Item Id="23" Descript="DST Cum Liquid Production" LMnem="DSTCLP" Mnem="DCLP" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="24" Descript="DST Cum Gas Production" LMnem="DSTCGP" Mnem="DCGP" Type="F" Len="4" MUnit="MCM" FUnit="MCF" />
+      <Item Id="25" Descript="DST Cum Total Production" LMnem="DSTCTP" Mnem="DCTP" Type="F" Len="4" MUnit="M3" FUnit="BBL" />
+      <Item Id="26" Descript="Hydrogen Sulfide (avg)" LMnem="HSA" Mnem="HSA" Type="L" Len="4" MUnit="PPM" FUnit="PPM" />
+      <Item Id="27" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="28" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="29" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="30" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="31" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="19" LogicalRecordType="169" AM="MANUAL" Trigger=" [EVENT] Transmission is operator-initiated" DataSource="Manually-entered data. Record is sent when new data values are available">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="No. Drill String Sections" LMnem="DSNUM" Mnem="DSNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="11" Descript="DS Section 1 OD" LMnem="DS1OD" Mnem="D1OD" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="12" Descript="DS Section 1 ID" LMnem="DS1ID" Mnem="D1ID" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="13" Descript="DS Section 1 Tool Joint ID" LMnem="DS1JID" Mnem="D1JI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="14" Descript="DS Section 1 Tool Joint OD" LMnem="DS1JOD" Mnem="D1JO" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="15" Descript="DS Section 1 Mass/Length" LMnem="DS1MASS" Mnem="D1MA" Type="F" Len="4" MUnit="KG/M" FUnit="LB/F" />
+      <Item Id="16" Descript="DS Section 1 Length" LMnem="DS1LEN" Mnem="D1LE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="17" Descript="DS Section 2 OD" LMnem="DS2OD" Mnem="D2OD" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="18" Descript="DS Section 2 ID" LMnem="DS2ID" Mnem="D2ID" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="19" Descript="DS Section 2 Tool Joint ID" LMnem="DS2JID" Mnem="D2JI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="20" Descript="DS Section 2 Tool Joint OD" LMnem="DS2JOD" Mnem="D2JO" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="21" Descript="DS Section 2 Mass/Length" LMnem="DS2MASS" Mnem="D2MA" Type="F" Len="4" MUnit="KG/M" FUnit="LB/F" />
+      <Item Id="22" Descript="DS Section 2 Length" LMnem="DS2LEN" Mnem="D2LE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="23" Descript="DS Section 3 OD" LMnem="DS3OD" Mnem="D3OD" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="24" Descript="DS Section 3 ID" LMnem="DS3ID" Mnem="D3ID" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="25" Descript="DS Section 3 Tool Joint ID" LMnem="DS3JID" Mnem="D3JI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="26" Descript="DS Section 3 Tool Joint OD" LMnem="DS3JOD" Mnem="D3JO" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="27" Descript="DS Section 3 Mass/Length" LMnem="DS3MASS" Mnem="D3MA" Type="F" Len="4" MUnit="KG/M" FUnit="LB/F" />
+      <Item Id="28" Descript="DS Section 3 Length" LMnem="DS3LEN" Mnem="D3LE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="29" Descript="DS Section 4 OD" LMnem="DS4OD" Mnem="D4OD" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="30" Descript="DS Section 4 ID" LMnem="DS4ID" Mnem="D4ID" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="31" Descript="DS Section 4 Tool Joint ID" LMnem="DS4JID" Mnem="D4JI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="32" Descript="DS Section 4 Tool Joint OD" LMnem="DS4JOD" Mnem="D4JO" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="33" Descript="DS Section 4 Mass/Length" LMnem="DS4MASS" Mnem="D4MA" Type="F" Len="4" MUnit="KG/M" FUnit="LB/F" />
+      <Item Id="34" Descript="DS Section 4 Length" LMnem="DS4LEN" Mnem="D4LE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="35" Descript="DS Section 5 OD" LMnem="DS5OD" Mnem="D5OD" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="36" Descript="DS Section 5 ID" LMnem="DS5ID" Mnem="D5ID" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="37" Descript="DS Section 5 Tool Joint ID" LMnem="DS5JID" Mnem="D5JI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="38" Descript="DS Section 5 Tool Joint OD" LMnem="DS5JOD" Mnem="D5JO" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="39" Descript="DS Section 5 Mass/Length" LMnem="DS5MASS" Mnem="D5MA" Type="F" Len="4" MUnit="KG/M" FUnit="LB/F" />
+      <Item Id="40" Descript="DS Section 5 Length" LMnem="DS5LEN" Mnem="D5LE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="41" Descript="DS Section 6 OD" LMnem="DS6OD" Mnem="D6OD" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="42" Descript="DS Section 6 ID" LMnem="DS6ID" Mnem="D6ID" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="43" Descript="DS Section 6 Tool Joint ID" LMnem="DS6JID" Mnem="D6JI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="44" Descript="DS Section 6 Tool Joint OD" LMnem="DS6JOD" Mnem="D6JO" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="45" Descript="DS Section 6 Mass/Length" LMnem="DS6MASS" Mnem="D6MA" Type="F" Len="4" MUnit="KG/M" FUnit="LB/F" />
+      <Item Id="46" Descript="Kelly ID" LMnem="KELLYID" Mnem="KID" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="47" Descript="Kelly Length" LMnem="KELLYLEN" Mnem="KLEN" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="48" Descript="Drill Pipe Stand Length" LMnem="DPSTDLEN" Mnem="SLEN" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="49" Descript="No. Joints/Stand" LMnem="DPSTDJNT" Mnem="SJNT" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="50" Descript="No. Hole Sections" LMnem="HOLENUM" Mnem="HLNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="51" Descript="Hole Section 1 Diam" LMnem="HL1DIAM" Mnem="H1DI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="52" Descript="Hole Section 1 Length" LMnem="HL1LEN" Mnem="H1LE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="53" Descript="Hole Section 2 Diam" LMnem="HL2DIAM" Mnem="H2DI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="54" Descript="Hole Section 2 Length" LMnem="HL2LEN" Mnem="H2LE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="55" Descript="Hole Section 3 Diam" LMnem="HL3DIAM" Mnem="H3DI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="56" Descript="Hole Section 3 Length" LMnem="HL3LEN" Mnem="H3LE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="57" Descript="Hole Section 4 Diam" LMnem="HL4DIAM" Mnem="H4DI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="58" Descript="Hole Section 4 Length" LMnem="HL4LEN" Mnem="H4LE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="59" Descript="Hole Section 5 Diam" LMnem="HL5DIAM" Mnem="H5DI" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="60" Descript="Pump 1 Capacity" LMnem="PUMP1CAP" Mnem="P1CA" Type="F" Len="4" MUnit="M3ST" FUnit="B/ST" />
+      <Item Id="61" Descript="Pump 1 Efficiency" LMnem="PUMP1EFF" Mnem="P1EF" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="62" Descript="Pump 2 Capacity" LMnem="PUMP2CAP" Mnem="P2CA" Type="F" Len="4" MUnit="M3ST" FUnit="B/ST" />
+      <Item Id="63" Descript="Pump 2 Efficiency" LMnem="PUMP2EFF" Mnem="P2EF" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="64" Descript="Pump 3 Capacity" LMnem="PUMP3CAP" Mnem="P3CA" Type="F" Len="4" MUnit="M3ST" FUnit="B/ST" />
+      <Item Id="65" Descript="Pump 3 Efficiency" LMnem="PUMP3EFF" Mnem="P3EF" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="66" Descript="Rig Operating Cost/Hour" LMnem="RIGCOST" Mnem="RIGC" Type="S" Len="2" MUnit="----" FUnit="$" />
+      <Item Id="67" Descript="Trip Rate (Dist/Time)" LMnem="TRIPRATE" Mnem="TRRT" Type="F" Len="4" MUnit="KPH" FUnit="KF/H" />
+      <Item Id="68" Descript="Kill Line ID" LMnem="KILLID" Mnem="KLID" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="69" Descript="Kill Line Joint ID" LMnem="KILLJID" Mnem="KLJD" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="70" Descript="Kill Line Joint Fraction" LMnem="KILLJF" Mnem="KLJF" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="71" Descript="Kill Line Length" LMnem="KILLLEN" Mnem="KLLE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="72" Descript="Choke Line ID" LMnem="CHKID" Mnem="CHID" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="73" Descript="Choke Line Joint ID" LMnem="CHKJID" Mnem="CHJD" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="74" Descript="Choke Line Joint Fraction" LMnem="CHKJF" Mnem="CHJF" Type="S" Len="2" MUnit="%" FUnit="%" />
+      <Item Id="75" Descript="Choke Line Length" LMnem="CHKLEN" Mnem="CHLE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="76" Descript="Depth Casing Shoe (meas)" LMnem="DEPTCSGM" Mnem="DCGM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="77" Descript="Depth Casing Shoe (vert)" LMnem="DEPTCSGV" Mnem="DCGV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="78" Descript="Depth PIT (meas)" LMnem="DEPTPITM" Mnem="DPTM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="79" Descript="Depth PIT (vert)" LMnem="DEPTPITV" Mnem="DPTV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="80" Descript="Frac Pressure Grad at PIT" LMnem="FPGPIT" Mnem="FPIT" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="81" Descript="Drilling Contractor" LMnem="DRLGCONT" Mnem="CONT" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="82" Descript="Rig Name" LMnem="RIGNAME" Mnem="RIG" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="83" Descript="Rig Type" LMnem="RIGTYPE" Mnem="RTYP" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="84" Descript="Vendor 1 Name/Service" LMnem="VENDOR1" Mnem="VEN1" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="85" Descript="Vendor 2 Name/Service" LMnem="VENDOR2" Mnem="VEN2" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="86" Descript="Vendor 3 Name/Service" LMnem="VENDOR3" Mnem="VEN3" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="87" Descript="Vendor 4 Name/Service" LMnem="VENDOR4" Mnem="VEN4" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="88" Descript="Vendor 5 Name/Service" LMnem="VENDOR5" Mnem="VEN5" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="89" Descript="Vendor 6 Name/Service" LMnem="VENDOR6" Mnem="VEN6" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="90" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="91" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="92" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="93" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="94" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="20" LogicalRecordType="170" AM="MANUAL" Trigger=" [EVENT] Transmission is operator-initiated" DataSource="Manually-entered data for each mud report. Record is sent when new data values are available">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Mud Rept Depth (meas)" LMnem="MREPDM" Mnem="MRDM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Mud Rept Depth (vert)" LMnem="MREPDV" Mnem="MRDV" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Mud Rept Number" LMnem="MREPNUM" Mnem="MNUM" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="11" Descript="Mud Rept Mud Type" LMnem="MRMTYPE" Mnem="MTYP" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="12" Descript="Mud Rept Sample Location" LMnem="MRSLOC" Mnem="MLOC" Type="A" Len="8" MUnit="----" FUnit="----" />
+      <Item Id="13" Descript="Mud Rept Sample Date" LMnem="MRSDATE" Mnem="MDAT" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="14" Descript="Mud Rept Sample Time" LMnem="MRSTIME" Mnem="MTIM" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="15" Descript="Mud Rept Mud Density" LMnem="MRDENS" Mnem="MDEN" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="16" Descript="Mud Rept Funnel Vis" LMnem="MRFVIS" Mnem="MFV" Type="S" Len="2" MUnit="S/L" FUnit="S/QT" />
+      <Item Id="17" Descript="Mud Rept Funnel Vis Temp" LMnem="MRFVIST" Mnem="MFVT" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="18" Descript="Mud Rept Plastic Vis" LMnem="MRPV" Mnem="MPV" Type="F" Len="4" MUnit="CP" FUnit="CP" />
+      <Item Id="19" Descript="Mud Rept Yield Point" LMnem="MRYP" Mnem="MYP" Type="F" Len="4" MUnit="PA" FUnit="PHSF" />
+      <Item Id="20" Descript="Mud Rept Gel - 10 sec" LMnem="MRGEL10S" Mnem="MGL1" Type="F" Len="4" MUnit="PA" FUnit="PHSF" />
+      <Item Id="21" Descript="Mud Rept Gel - 10 min" LMnem="MRGEL10M" Mnem="MGL2" Type="F" Len="4" MUnit="PA" FUnit="PHSF" />
+      <Item Id="22" Descript="Mud Rept Gel - 30 min" LMnem="MRGEL30M" Mnem="MGL3" Type="F" Len="4" MUnit="PA" FUnit="PHSF" />
+      <Item Id="23" Descript="Mud Rept Filtrate" LMnem="MRFILT" Mnem="MFIL" Type="F" Len="4" MUnit="C/30" FUnit="C/30" />
+      <Item Id="24" Descript="Mud Rept Filter Cake" LMnem="MRCAKE" Mnem="MCAK" Type="S" Len="2" MUnit="MM" FUnit="I/32" />
+      <Item Id="25" Descript="Mud Rept HTHP Temp" LMnem="MRHT" Mnem="MHT" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="26" Descript="Mud Rept HTHP Pressure" LMnem="MRHP" Mnem="MHP" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="27" Descript="Mud Rept HTHP Filtrate" LMnem="MRHFILT" Mnem="MHFI" Type="F" Len="4" MUnit="C/30" FUnit="C/30" />
+      <Item Id="28" Descript="Mud Rept HTHP Filter Cake" LMnem="MRHCAKE" Mnem="MHCK" Type="S" Len="2" MUnit="MM" FUnit="I/32" />
+      <Item Id="29" Descript="Mud Rept Solids % (retort)" LMnem="MRSOLRET" Mnem="MSOL" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="30" Descript="Mud Rept Water % (retort)" LMnem="MRWATRET" Mnem="MWAT" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="31" Descript="Mud Rept Oil % (retort)" LMnem="MROILRET" Mnem="MOIL" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="32" Descript="Mud Rept Sand %" LMnem="MRSAND" Mnem="MSAN" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="33" Descript="Mud Rept Low Grav Sol %" LMnem="MRLGSOL" Mnem="MLGS" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="34" Descript="Mud Rept Solids % (calc)" LMnem="MRSOLCAL" Mnem="MSCA" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="35" Descript="Mud Rept Barite content" LMnem="MRBARITE" Mnem="MBRT" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="36" Descript="Mud Rept LCM content" LMnem="MRLCM" Mnem="MLCM" Type="F" Len="4" MUnit="KGM3" FUnit="PPB" />
+      <Item Id="37" Descript="Mud Rept MBT capacity" LMnem="MRMBT" Mnem="MMBT" Type="F" Len="4" MUnit="KGM3" FUnit="PPB" />
+      <Item Id="38" Descript="Mud Rept pH" LMnem="MRPH" Mnem="MPH" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="39" Descript="Mud Rept pH sample temp" LMnem="MRPHT" Mnem="MPHT" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="40" Descript="Mud Rept Pm" LMnem="MRPM" Mnem="MPM" Type="F" Len="4" MUnit="MLML" FUnit="MLML" />
+      <Item Id="41" Descript="Mud Rept Pf" LMnem="MRPF" Mnem="MPF" Type="F" Len="4" MUnit="MLML" FUnit="MLML" />
+      <Item Id="42" Descript="Mud Rept Mf" LMnem="MRMF" Mnem="MMF" Type="F" Len="4" MUnit="MLML" FUnit="MLML" />
+      <Item Id="43" Descript="Mud Rept P1" LMnem="MRP1" Mnem="MRP1" Type="F" Len="4" MUnit="MLML" FUnit="MLML" />
+      <Item Id="44" Descript="Mud Rept P2" LMnem="MRP2" Mnem="MRP2" Type="F" Len="4" MUnit="MLML" FUnit="MLML" />
+      <Item Id="45" Descript="Mud Rept Chlorides" LMnem="MRCHLOR" Mnem="MCHL" Type="F" Len="4" MUnit="MG/L" FUnit="MG/L" />
+      <Item Id="46" Descript="Mud Rept Calcium" LMnem="MRCALC" Mnem="MCAL" Type="F" Len="4" MUnit="MG/L" FUnit="MG/L" />
+      <Item Id="47" Descript="Mud Rept Magnesium" LMnem="MRMAG" Mnem="MMAG" Type="F" Len="4" MUnit="MG/L" FUnit="MG/L" />
+      <Item Id="48" Descript="Mud Rept Potassium" LMnem="MRPOT" Mnem="MPOT" Type="F" Len="4" MUnit="MG/L" FUnit="MG/L" />
+      <Item Id="49" Descript="Mud Rept Rheometer temp" LMnem="MRRHETEM" Mnem="MRHT" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="50" Descript="Mud Rept Viscom 3 rpm" LMnem="MRVIS3" Mnem="M3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="51" Descript="Mud Rept Viscom 6 rpm" LMnem="MRVIS6" Mnem="M6" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="52" Descript="Mud Rept Viscom 100 rpm" LMnem="MRVIS100" Mnem="M100" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="53" Descript="Mud Rept Viscom 200 rpm" LMnem="MRVIS200" Mnem="M200" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="54" Descript="Mud Rept Viscom 300 rpm" LMnem="MRVIS300" Mnem="M300" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="55" Descript="Mud Rept Viscom 600 rpm" LMnem="MRVIS600" Mnem="M600" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="56" Descript="Mud Rept Brine %" LMnem="MRBRINE" Mnem="MBRI" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="57" Descript="Mud Rept Alkalinity" LMnem="MRALK" Mnem="MALK" Type="F" Len="4" MUnit="MLML" FUnit="MLML" />
+      <Item Id="58" Descript="Mud Rept Lime content" LMnem="MRLIME" Mnem="MLIM" Type="F" Len="4" MUnit="KGM3" FUnit="PPB" />
+      <Item Id="59" Descript="Mud Rept Elect. Stability" LMnem="MRELECST" Mnem="MELS" Type="F" Len="4" MUnit="V" FUnit="V" />
+      <Item Id="60" Descript="Mud Rept CaCl, Wt %" LMnem="MRCACL" Mnem="MCCL" Type="F" Len="4" MUnit="%" FUnit="%" />
+      <Item Id="61" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="62" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="63" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="64" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="65" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="21" LogicalRecordType="171" AM="MANUAL" Trigger=" [EVENT] Transmission is operator-initiated" DataSource="Manually-entered data at the start and end of each bit run. Record is sent when new data values are available">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Bit Number" LMnem="BTNUM" Mnem="BNUM" Type="A" Len="8" MUnit="----" FUnit="----" />
+      <Item Id="9" Descript="Bit Diameter" LMnem="BTDIAM" Mnem="BDIA" Type="F" Len="4" MUnit="MM" FUnit="IN" />
+      <Item Id="10" Descript="Bit Manufacturer" LMnem="BTMANUF" Mnem="BMAN" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="11" Descript="Bit Name" LMnem="BTNAME" Mnem="BNAM" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="12" Descript="Bit IADC Code" LMnem="BTCODE" Mnem="BCOD" Type="A" Len="8" MUnit="----" FUnit="----" />
+      <Item Id="13" Descript="Bit Serial Number" LMnem="BTSERNUM" Mnem="BSER" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="14" Descript="Bit Cost" LMnem="BTCOST" Mnem="BCST" Type="F" Len="4" MUnit="$" FUnit="$" />
+      <Item Id="15" Descript="Bit Jet 1 Diameter" LMnem="BTJET1" Mnem="BJT1" Type="F" Len="4" MUnit="MM" FUnit="I/32" />
+      <Item Id="16" Descript="Bit Jet 2 Diameter" LMnem="BTJET2" Mnem="BJT2" Type="F" Len="4" MUnit="MM" FUnit="I/32" />
+      <Item Id="17" Descript="Bit Jet 3 Diameter" LMnem="BTJET3" Mnem="BJT3" Type="F" Len="4" MUnit="MM" FUnit="I/32" />
+      <Item Id="18" Descript="Bit Jet 4 Diameter" LMnem="BTJET4" Mnem="BJT4" Type="F" Len="4" MUnit="MM" FUnit="I/32" />
+      <Item Id="19" Descript="Bit Center Jet Diameter" LMnem="BTJETCEN" Mnem="BJTC" Type="F" Len="4" MUnit="MM" FUnit="I/32" />
+      <Item Id="20" Descript="Bit Total Flow Area" LMnem="BTTFA" Mnem="BTFA" Type="F" Len="4" MUnit="MM2" FUnit="SQIN" />
+      <Item Id="21" Descript="Bit Starting Depth (In)" LMnem="BTDEPIN" Mnem="BDPI" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="22" Descript="Bit Ending Depth (Out)" LMnem="BTDEPOUT" Mnem="BDPO" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="23" Descript="Bit Run Drilled Distance" LMnem="BTDDIST" Mnem="BDDI" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="24" Descript="Bit Run Drilled Time" LMnem="BTDTIME" Mnem="BDTI" Type="F" Len="4" MUnit="HR" FUnit="HR" />
+      <Item Id="25" Descript="Bit Run Reamed Time" LMnem="BTRTIME" Mnem="BRTI" Type="F" Len="4" MUnit="HR" FUnit="HR" />
+      <Item Id="26" Descript="Bit Penetration Rate (avg)" LMnem="BTROPA" Mnem="BRPA" Type="F" Len="4" MUnit="M/HR" FUnit="F/HR" />
+      <Item Id="27" Descript="Bit Weight-on-Bit (avg)" LMnem="BTWOBA" Mnem="BWBA" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="28" Descript="Bit Weight-on-Bit (max)" LMnem="BTWOBX" Mnem="BWBX" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="29" Descript="Bit Rotary Speed (avg)" LMnem="BTRPMA" Mnem="BRMA" Type="S" Len="2" MUnit="RPM" FUnit="RPM" />
+      <Item Id="30" Descript="Bit Rotary Speed (max)" LMnem="BTRPMX" Mnem="BRMX" Type="S" Len="2" MUnit="RPM" FUnit="RPM" />
+      <Item Id="31" Descript="Bit Mud Flow Rate (avg)" LMnem="BTMFA" Mnem="BMFA" Type="F" Len="4" MUnit="L/M" FUnit="GPM" />
+      <Item Id="32" Descript="Bit Mud Density (avg)" LMnem="BTMDA" Mnem="BMDA" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="33" Descript="Bit Standpipe Pressure (avg)" LMnem="BTSPPA" Mnem="BSPA" Type="F" Len="4" MUnit="KPA" FUnit="PSI" />
+      <Item Id="34" Descript="Bit Reason Run" LMnem="BTRUN" Mnem="BRUN" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="35" Descript="Bit Reason Pulled" LMnem="BTPULL" Mnem="BPUL" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="36" Descript="Bit Grade In" LMnem="BTGRDIN" Mnem="BGI" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="37" Descript="Bit Grade Out" LMnem="BTGRDOUT" Mnem="BGO" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="38" Descript="Bit Shock Sub Used ?" LMnem="BTSHKSUB" Mnem="BSHK" Type="A" Len="1" MUnit="----" FUnit="----" />
+      <Item Id="39" Descript="Bit Mud Motor Used ?" LMnem="BTMUDMOT" Mnem="BMM" Type="A" Len="1" MUnit="----" FUnit="----" />
+      <Item Id="40" Descript="Bit Comments" LMnem="BTCOMM" Mnem="BCOM" Type="A" Len="128" MUnit="----" FUnit="----" />
+      <Item Id="41" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="42" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="43" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="44" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="45" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+      <Item Id="46" Descript="&amp;lt; SPARE 6 &amp;gt;" LMnem="SPARE6" Mnem="SPR6" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="47" Descript="&amp;lt; SPARE 7 &amp;gt;" LMnem="SPARE7" Mnem="SPR7" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="48" Descript="&amp;lt; SPARE 8 &amp;gt;" LMnem="SPARE8" Mnem="SPR8" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="49" Descript="&amp;lt; SPARE 9 &amp;gt;" LMnem="SPARE9" Mnem="SPR9" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="22" LogicalRecordType="172" AM="MANUAL" Trigger=" [EVENT] Transmission is operator-initiated" DataSource="Manually-entered data">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Depth Hole (meas)" LMnem="DEPTMEAS" Mnem="DMEA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Depth Hole (vert)" LMnem="DEPTVERT" Mnem="DVER" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Comments" LMnem="COMM" Mnem="COMM" Type="A" Len="256" MUnit="----" FUnit="----" />
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Well Name" LMnem="WELLNAME" Mnem="WELL" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="9" Descript="Well Identification Number" LMnem="WELLNUM" Mnem="WNUM" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="10" Descript="Operator" LMnem="OPERATOR" Mnem="OPER" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="11" Descript="Well Classification (Lahee)" LMnem="WELLCLAS" Mnem="WCLS" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="12" Descript="Well Location" LMnem="LOCATION" Mnem="WLOC" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="13" Descript="Well Univ.Tran.Mercator" LMnem="WELLUTM" Mnem="WUTM" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="14" Descript="Well Surface Latitude" LMnem="WELLLAT" Mnem="WLAT" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="15" Descript="Well Surface Longitude" LMnem="WELLLON" Mnem="WLON" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="16" Descript="Field Name" LMnem="FIELD" Mnem="FLD" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="17" Descript="Elev : Datum-MSL" LMnem="ELEVDP" Mnem="ELDP" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="18" Descript="Elev : Kelly Bushing-MSL" LMnem="ELEVKB" Mnem="ELKB" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="19" Descript="Elev : Ground Level-MSL" LMnem="ELEVGL" Mnem="ELGL" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="20" Descript="Water Depth (mean)" LMnem="WATDEPT" Mnem="WDPM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="21" Descript="Spud Date" LMnem="SPUDDATE" Mnem="SPDT" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="22" Descript="Custom Field 01 Identifier" LMnem="CUS1" Mnem="CUS1" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="23" Descript="Custom Field 02 Identifier" LMnem="CUS2" Mnem="CUS2" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="24" Descript="Custom Field 03 Identifier" LMnem="CUS3" Mnem="CUS3" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="25" Descript="Custom Field 04 Identifier" LMnem="CUS4" Mnem="CUS4" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="26" Descript="Custom Field 05 Identifier" LMnem="CUS5" Mnem="CUS5" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="27" Descript="Custom Field 06 Identifier" LMnem="CUS6" Mnem="CUS6" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="28" Descript="Custom Field 07 Identifier" LMnem="CUS7" Mnem="CUS7" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="29" Descript="Custom Field 08 Identifier" LMnem="CUS8" Mnem="CUS8" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="30" Descript="Custom Field 09 Identifier" LMnem="CUS9" Mnem="CUS9" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="31" Descript="Custom Field 10 Identifier" LMnem="CUS0" Mnem="CUS0" Type="A" Len="32" MUnit="----" FUnit="----" />
+      <Item Id="32" Descript="Units Type used" LMnem="UNIT" Mnem="UNIT" Type="A" Len="8" MUnit="----" FUnit="----" />
+      <Item Id="33" Descript="Time Zone Offset" LMnem="TOFFSET" Mnem="TOFF" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="34" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="35" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="36" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="37" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="23" LogicalRecordType="173" AM="MANUAL" Trigger=" [EVENT] Transmission is operator-initiated" DataSource="Manually-entered data. Record is sent when new data values are available">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Water Depth (mean)" LMnem="WATDEPT" Mnem="WDPM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Tide" LMnem="TIDE" Mnem="TIDE" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="10" Descript="Vessel Heading" LMnem="VESSHEAD" Mnem="VHED" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="11" Descript="Rig VCG" LMnem="RIGVCG" Mnem="RVCG" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Riser Tension" LMnem="RISTENS" Mnem="RTEN" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="13" Descript="Rig Offset (avg)" LMnem="OFFSETA" Mnem="OFSA" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="14" Descript="Rig Offset (max)" LMnem="OFFSETX" Mnem="OFSX" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="15" Descript="Rig Offset Direction" LMnem="OFFSETD" Mnem="OFSD" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="16" Descript="LMRP Angle (avg)" LMnem="LMRPANA" Mnem="LANA" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="17" Descript="LMRP Angle (max)" LMnem="LMRPANX" Mnem="LANX" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="18" Descript="LMRP Angle, Direction" LMnem="LMRPAND" Mnem="LAND" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="19" Descript="Fluid Density in Riser" LMnem="MDRISER" Mnem="MDRI" Type="F" Len="4" MUnit="KGM3" FUnit="PPG" />
+      <Item Id="20" Descript="Mooring Line #01 Tens(avg)" LMnem="MLTA01" Mnem="TA01" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="21" Descript="Mooring Line #01 Tens(max)" LMnem="MLTX01" Mnem="TX01" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="22" Descript="Mooring Line #02 Tens(avg)" LMnem="MLTA02" Mnem="TA02" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="23" Descript="Mooring Line #02 Tens(max)" LMnem="MLTX02" Mnem="TX02" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="24" Descript="Mooring Line #03 Tens(avg)" LMnem="MLTA03" Mnem="TA03" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="25" Descript="Mooring Line #03 Tens(max)" LMnem="MLTX03" Mnem="TX03" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="26" Descript="Mooring Line #04 Tens(avg)" LMnem="MLTA04" Mnem="TA04" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="27" Descript="Mooring Line #04 Tens(max)" LMnem="MLTX04" Mnem="TX04" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="28" Descript="Mooring Line #05 Tens(avg)" LMnem="MLTA05" Mnem="TA05" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="29" Descript="Mooring Line #05 Tens(max)" LMnem="MLTX05" Mnem="TX05" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="30" Descript="Mooring Line #06 Tens(avg)" LMnem="MLTA06" Mnem="TA06" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="31" Descript="Mooring Line #06 Tens(max)" LMnem="MLTX06" Mnem="TX06" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="32" Descript="Mooring Line #07 Tens(avg)" LMnem="MLTA07" Mnem="TA07" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="33" Descript="Mooring Line #07 Tens(max)" LMnem="MLTX07" Mnem="TX07" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="34" Descript="Mooring Line #08 Tens(avg)" LMnem="MLTA08" Mnem="TA08" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="35" Descript="Mooring Line #08 Tens(max)" LMnem="MLTX08" Mnem="TX08" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="36" Descript="Mooring Line #09 Tens(avg)" LMnem="MLTA09" Mnem="TA09" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="37" Descript="Mooring Line #09 Tens(max)" LMnem="MLTX09" Mnem="TX09" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="38" Descript="Mooring Line #10 Tens(avg)" LMnem="MLTA10" Mnem="TA10" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="39" Descript="Mooring Line #10 Tens(max)" LMnem="MLTX10" Mnem="TX10" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="40" Descript="Mooring Line #11 Tens(avg)" LMnem="MLTA11" Mnem="TA11" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="41" Descript="Mooring Line #11 Tens(max)" LMnem="MLTX11" Mnem="TX11" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="42" Descript="Mooring Line #12 Tens(avg)" LMnem="MLTA12" Mnem="TA12" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="43" Descript="Mooring Line #12 Tens(max)" LMnem="MLTX12" Mnem="TX12" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="44" Descript="Thruster #01, Force" LMnem="THRF01" Mnem="TF01" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="45" Descript="Thruster #01, Direction" LMnem="THRD01" Mnem="TD01" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="46" Descript="Thruster #02, Force" LMnem="THRF02" Mnem="TF02" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="47" Descript="Thruster #02, Direction" LMnem="THRD02" Mnem="TD02" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="48" Descript="Thruster #03, Force" LMnem="THRF03" Mnem="TF03" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="49" Descript="Thruster #03, Direction" LMnem="THRD03" Mnem="TD03" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="50" Descript="Thruster #04, Force" LMnem="THRF04" Mnem="TF04" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="51" Descript="Thruster #04, Direction" LMnem="THRD04" Mnem="TD04" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="52" Descript="Thruster #05, Force" LMnem="THRF05" Mnem="TF05" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="53" Descript="Thruster #05, Direction" LMnem="THRD05" Mnem="TD05" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="54" Descript="Thruster #06, Force" LMnem="THRF06" Mnem="TF06" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="55" Descript="Thruster #06, Direction" LMnem="THRF06" Mnem="TD06" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="56" Descript="Thruster #07, Force" LMnem="THRF07" Mnem="TF07" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="57" Descript="Thruster #07, Direction" LMnem="THRD07" Mnem="TD07" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="58" Descript="Thruster #08, Force" LMnem="THRF08" Mnem="TF08" Type="F" Len="4" MUnit="KDN" FUnit="KLB" />
+      <Item Id="59" Descript="Thruster #08, Direction" LMnem="THRD08" Mnem="TD08" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="60" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="61" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="62" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="63" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="64" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+  <Record Id="24" LogicalRecordType="174" AM="AUTO/MANUAL" Trigger=" [TIME] Transmit at a specified time interval (secs)" DataSource="Acquired sensor data (possibly via WITS Level 0 transfer), or manually-entered data. The record is transmitted and any automatic computations are reset at the end of the triggering interval">
+    <Items>
+      <Item Id="1" Descript="Well Identifier" LMnem="WELLID" Mnem="WID" Type="A" Len="16" MUnit="----" FUnit="----" />
+      <Item Id="2" Descript="Sidetrack/Hole Sect No." LMnem="STKNUM" Mnem="SKNO" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="3" Descript="Record Identifier" LMnem="RECID" Mnem="RID" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="4" Descript="Sequence Identifier" LMnem="SEQID" Mnem="SQID" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="5" Descript="Date" LMnem="DATE" Mnem="DATE" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="6" Descript="Time" LMnem="TIME" Mnem="TIME" Type="L" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="7" Descript="Activity Code" LMnem="ACTCOD" Mnem="ACTC" Type="S" Len="2" MUnit="----" FUnit="----" />
+      <Item Id="8" Descript="Water Depth (mean)" LMnem="WATDEPT" Mnem="WDPM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="9" Descript="Air Temperature" LMnem="AIRTEMP" Mnem="AIRT" Type="F" Len="4" MUnit="DEGC" FUnit="DEGF" />
+      <Item Id="10" Descript="Barometric Pressure" LMnem="BARPRES" Mnem="BARP" Type="F" Len="4" MUnit="KPA" FUnit="IHG" />
+      <Item Id="11" Descript="Waves, Significant Height" LMnem="WVSHGHT" Mnem="WVSH" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="12" Descript="Waves, Maximum Height" LMnem="WVMHGHT" Mnem="WVMH" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="13" Descript="Waves, Mean Period" LMnem="WVMPER" Mnem="WVMP" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="14" Descript="Waves, Direction" LMnem="WVDIR" Mnem="WVDI" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="15" Descript="Swell, Significant Height" LMnem="SWSHGHT" Mnem="SWSH" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="16" Descript="Swell, Maximum Height" LMnem="SWMHGHT" Mnem="SWMH" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="17" Descript="Swell, Mean Period" LMnem="SWMPER" Mnem="SWMP" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="18" Descript="Swell, Direction" LMnem="SWDIR" Mnem="SWDI" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="19" Descript="Wind Speed ( 1 min )" LMnem="WINDSPD" Mnem="WSPD" Type="F" Len="4" MUnit="KPH" FUnit="MPH" />
+      <Item Id="20" Descript="Wind Gusts ( 5 sec )" LMnem="WINDGUST" Mnem="WGST" Type="F" Len="4" MUnit="KPH" FUnit="MPH" />
+      <Item Id="21" Descript="Wind Direction" LMnem="WINDDIR" Mnem="WDIR" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="22" Descript="Anemometer Height" LMnem="ANEMHGHT" Mnem="ANEM" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="23" Descript="Current Speed" LMnem="CURRSPD" Mnem="CSPD" Type="S" Len="2" MUnit="KPH" FUnit="MPH" />
+      <Item Id="24" Descript="Current Direction" LMnem="CURRDIR" Mnem="CDIR" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="25" Descript="Depth current measured" LMnem="DEPTCURR" Mnem="DCUR" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="26" Descript="Vessel Mean Draft" LMnem="VESMDRFT" Mnem="VMD" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="27" Descript="Heave, Peak-to-Peak (sig)" LMnem="HEAVSIG" Mnem="HVSG" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="28" Descript="Heave, Peak-to-Peak (max)" LMnem="HEAVMAX" Mnem="HVMX" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="29" Descript="Heave, Mean Period" LMnem="HEAVMPER" Mnem="HVMP" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="30" Descript="Roll, Peak-to-Peak (sig)" LMnem="ROLLSIG" Mnem="RLSG" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="31" Descript="Roll, Peak-to-Peak (max)" LMnem="ROLLMAX" Mnem="RLMX" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="32" Descript="Roll, Mean Period" LMnem="ROLLMPER" Mnem="RLMP" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="33" Descript="Pitch, Peak-to-Peak (sig)" LMnem="PTCHSIG" Mnem="PTSG" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="34" Descript="Pitch, Peak-to-Peak (max)" LMnem="PTCHMAX" Mnem="PTMX" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="35" Descript="Pitch, Mean Period" LMnem="PTCHMPER" Mnem="PTMP" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="36" Descript="Yaw, Peak-to Peak (sig)" LMnem="YAWSIG" Mnem="YWSG" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="37" Descript="Yaw, Peak-to-Peak (max)" LMnem="YAWMAX" Mnem="YWMX" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="38" Descript="Yaw, Mean Period" LMnem="YAWMPER" Mnem="YWMP" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="39" Descript="Surge, Peak-to-Peak (sig)" LMnem="SURGSIG" Mnem="SUSG" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="40" Descript="Surge, Peak-to-Peak (max)" LMnem="SURGMAX" Mnem="SUMX" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="41" Descript="Surge, Mean Period" LMnem="SURGMPER" Mnem="SUMP" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="42" Descript="Sway, Peak-to-Peak (sig)" LMnem="SWAYSIG" Mnem="SYSG" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="43" Descript="Sway, Peak-to-Peak (max)" LMnem="SWAYMAX" Mnem="SYMX" Type="F" Len="4" MUnit="M" FUnit="F" />
+      <Item Id="44" Descript="Sway, Mean Period" LMnem="SWAYMPER" Mnem="SYMP" Type="S" Len="2" MUnit="SEC" FUnit="SEC" />
+      <Item Id="45" Descript="Trim" LMnem="TRIM" Mnem="TRIM" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="46" Descript="Heel" LMnem="HEEL" Mnem="HEEL" Type="F" Len="4" MUnit="DEG" FUnit="DEG" />
+      <Item Id="47" Descript="Weather Comments" LMnem="WSSCOMM" Mnem="WSCM" Type="A" Len="128" MUnit="----" FUnit="----" />
+      <Item Id="48" Descript="&amp;lt; SPARE 1 &amp;gt;" LMnem="SPARE1" Mnem="SPR1" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="49" Descript="&amp;lt; SPARE 2 &amp;gt;" LMnem="SPARE2" Mnem="SPR2" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="50" Descript="&amp;lt; SPARE 3 &amp;gt;" LMnem="SPARE3" Mnem="SPR3" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="51" Descript="&amp;lt; SPARE 4 &amp;gt;" LMnem="SPARE4" Mnem="SPR4" Type="F" Len="4" MUnit="----" FUnit="----" />
+      <Item Id="52" Descript="&amp;lt; SPARE 5 &amp;gt;" LMnem="SPARE5" Mnem="SPR5" Type="F" Len="4" MUnit="---" FUnit="----" />
+    </Items>
+  </Record>
+</Records>
