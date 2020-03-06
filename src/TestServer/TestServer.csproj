@@ -51,11 +51,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AzimuthITS.Wits.Clients\WitsParser.Transport.csproj">
-      <Project>{567133E1-BDC3-4FF5-BFE3-0D2BDE996477}</Project>
+    <ProjectReference Include="..\WitsParser.Transport\WitsParser.Transport.csproj">
+      <Project>{567133e1-bdc3-4ff5-bfe3-0d2bde996477}</Project>
       <Name>WitsParser.Transport</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AzimuthITS.WitsSerialization\WitsParser.Wits.csproj">
+    <ProjectReference Include="..\WitsParser.Wits\WitsParser.Wits.csproj">
       <Project>{5da735b1-b837-4c1c-956c-b98a09cd0739}</Project>
       <Name>WitsParser.Wits</Name>
     </ProjectReference>

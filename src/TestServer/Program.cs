@@ -8,8 +8,6 @@
 
     internal class Program
     {
-        private static ServiceHost selfHost;
-
         private static void Main(string[] args)
         {
             try

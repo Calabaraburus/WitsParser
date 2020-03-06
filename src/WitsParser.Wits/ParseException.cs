@@ -14,14 +14,14 @@ namespace WitsParser
     public class ParseException : Exception
     {
         /// <summary>
-        /// Constructor
+        /// Initializes a new instance of the <see cref="ParseException" /> class.
         /// </summary>
         public ParseException()
         {
         }
 
         /// <summary>
-        /// Constructor
+        /// Initializes a new instance of the <see cref="ParseException" /> class.
         /// </summary>
         /// <param name="message">String message</param>
         public ParseException(string message)
@@ -30,7 +30,7 @@ namespace WitsParser
         }
 
         /// <summary>
-        /// Constructor
+        /// Initializes a new instance of the <see cref="ParseException" /> class.
         /// </summary>
         /// <param name="message">String message</param>
         /// <param name="inner">Inner exception</param>
@@ -40,13 +40,15 @@ namespace WitsParser
         }
 
         /// <summary>
-        /// Constructor
+        /// Initializes a new instance of the <see cref="ParseException" /> class.
         /// </summary>
         /// <param name="info">Serialization info</param>
         /// <param name="context">Streaming context</param>
         protected ParseException(
           System.Runtime.Serialization.SerializationInfo info,
           System.Runtime.Serialization.StreamingContext context)
-            : base(info, context) { }
+            : base(info, context)
+        {
+        }
     }
 }

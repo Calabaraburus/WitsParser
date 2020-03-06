@@ -48,19 +48,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AzimuthITS.Wits.Clients\WitsParser.Transport.csproj">
-      <Project>{567133E1-BDC3-4FF5-BFE3-0D2BDE996477}</Project>
-      <Name>WitsParser.Transport</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AzimuthITS.WitsSerialization\WitsParser.Wits.csproj">
-      <Project>{5DA735B1-B837-4C1C-956C-B98A09CD0739}</Project>
-      <Name>WitsParser.Wits</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="WitsTest.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WitsParser.Transport\WitsParser.Transport.csproj">
+      <Project>{567133e1-bdc3-4ff5-bfe3-0d2bde996477}</Project>
+      <Name>WitsParser.Transport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WitsParser.Wits\WitsParser.Wits.csproj">
+      <Project>{5da735b1-b837-4c1c-956c-b98a09cd0739}</Project>
+      <Name>WitsParser.Wits</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

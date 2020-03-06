@@ -9,7 +9,7 @@ namespace WitsParser.Wits
     using System.Text;
 
     /// <summary>
-    /// WITS serializer. Serilize\deserialize wits data from\to ASCII string or byte array
+    /// WITS serializer. Serialize\deserialize wits data from\to ASCII string or byte array
     /// </summary>
     public class WitsDataSerializer : IWitsDataSerializer
     {
